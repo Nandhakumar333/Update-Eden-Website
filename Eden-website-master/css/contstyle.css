@@ -7,19 +7,14 @@ body
 .monitoring
 {
     font-size: 50px;
-    width: 300px;
-    margin: 0;
     font-family: 'Raleway', sans-serif;
-    transform: translate(150%,100%);
-    opacity: 0.5;
+    
+   
 }
 .controlling
 {
     font-size: 50px;
-    width: 100px;
-    margin: 0;
     font-family: 'Raleway', sans-serif;
-    transform: translate(1150%,2%);
 }
 .underline
 {
@@ -52,7 +47,7 @@ body
 {
     border-radius: 10%;
     transition: 0.5s ease;
-    background-color:greenyellow;
+    background-color:palegreen;
 }
 .op1:hover~.waterpump
 {
@@ -85,7 +80,7 @@ body
 {
     border-radius: 10%;
     transition: 0.5s ease;
-    background-color:greenyellow;
+    background-color:palegreen;
 }
 .op2:hover~.wind
 {
@@ -104,7 +99,7 @@ body
 {
     border-radius: 10%;
     transition: 0.5s ease;
-    background-color:greenyellow;
+    background-color:palegreen;
 }
 .op3:hover~#moisturer
 {

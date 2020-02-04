@@ -8,28 +8,44 @@
   crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/2b8289e579.js"></script>
 <link rel="stylesheet" type="text/css" href="css/contstyle.css">
+<title>EDEN-CONTROLLING</title>
+<link rel = "icon" href =  
+"images/logo3.png" 
+        type = "image/x-icon"> 
 </head>
 <body>
-    <a href="index.html"><h1 class="monitoring">Monitoring</h1></a>
+    <a href="monitoring.html"><h1 class="monitoring">Monitoring</h1></a>
     <a href="controlling.html"><h1 class="controlling">Controlling</h1></a>
-    <div class="underline"></div>
+    <br>
+    <hr style="background-color: green;height:2px;width: 80%;">
     <div class="ask"> What do you want to operate ?</div>
     <div class="icons">
         <button class="op1" onclick="document.getElementById('demo').style.display='block'
                  document.getElementById('demo1').style.display='block'
-                 document.getElementById('demo2').style.display='block'"><img src="images/motor.png" class="motor"></button>
+                 document.getElementById('demo2').style.display='block'"><img src="images/motor.png" class="motor">
+        </button>
+
         <div  class="waterpump">Water Pump</div>
+
         <button class="op2" onclick="document.getElementById('demo').style.display='block'
                  document.getElementById('demo1').style.display='block'
-                 document.getElementById('demo2').style.display='block'"><img src="images/humidity.png" class="humidity"></button>
+                 document.getElementById('demo2').style.display='block'"><img src="images/humidity.png" class="humidity">
+            </button>
         <div  class="wind">Wind conditioner</div>
         <button class="op3" onclick="document.getElementById('demo').style.display='block'
                  document.getElementById('demo1').style.display='block'
                  document.getElementById('demo2').style.display='block'"><img src="images/ac.png" class="ac"></button>
         <div  id="moisturer">Moisturer</div>
+        <br>
+        <hr style="background-color: green;height:2px;width: 80%;">
         <div class="conform" id="demo">Would you like to continue ?</div>
-        <a href="inde.html" ><button class="yes" id="demo1">Yes</button></a>
+        <a href="operation.html" ><button class="yes" id="demo1">Yes</button></a>
         <a href="controlling.html" ><button class="no" id="demo2">No</button></a>
     </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('')
+        })
+    </script>
 </body>
 </html>

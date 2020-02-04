@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/2b8289e579.js"></script>
+<link rel="stylesheet" type="text/css" href="css/monitor.css">
+<script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+<title>EDEN-MONITORING</title>
+<link rel = "icon" href =  
+"images/logo3.png" 
+        type = "image/x-icon"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+</head>
+<body>
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 text-center">
+				<a class="nav-link text-success" href="monitoring.html"><h1 class="monitoring">Monitoring</h1></a>
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 text-center">
+				<a class="nav-link text-success text-muted" href="controlling.html"><h1 class="controlling">Controlling</h1></a>
+			</div>
+		</div>
+	   <hr style="background-color: green;height:2px;">
+	    <div class="row">
+	    	<div class="light-intensity col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 p-5">
+	    		<h1 class="light">Light-intensity</h1>
+	    		
+	    	</div>
+	    	<div class="soil-moisture col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-3 p-5">
+	    		<h1 class="soil">Soil-Moisture</h1>
+
+	    		
+	    	</div>
+	    	<div class="temperature col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-3 p-5">
+	    		<h1 class="temp">Temperature</h1>
+
+	    		
+	    	</div>
+	    	<div class="humidity col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-3 p-5">
+	    		 <h1 class="hum">Humidity</h1>
+
+	    		
+	    	</div>
+	    	<div class="humidity col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-3 p-5">
+	    		 <h1 class="hum">C02 Level</h1>
+
+	    		 
+	    	</div>
+	    </div>
+	   
+	    
+	   
+	</div>
+
+     <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAH784qAeAYbP3bVd1FHqGuhSVKrI1zlKU",
+        authDomain: "eden-database.firebaseapp.com",
+        databaseURL: "https://eden-database.firebaseio.com",
+        projectId: "eden-database",
+        storageBucket: "eden-database.appspot.com",
+        messagingSenderId: "783228062969",
+        appId: "1:783228062969:web:b451d12b0d5bfbc4a86628",
+        measurementId: "G-YX8JZJ7N7Q"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+     
+    </script>
+    
+    <script src="monitor.js"></script>
+
+</body>
+</html>

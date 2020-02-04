@@ -76,8 +76,11 @@
              
         })
 
-        $('#dark').click(function(){
-        	$('body').toggleClass("dark");
+        $('.allview').click(function(){
+        	window.location="Eden-website-master/monitoring.html";
+        })
+        $('#control').click(function(){
+        	window.location="Eden-website-master/controlling.html";
         })
 
 
