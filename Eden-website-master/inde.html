@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Eden</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    </head>
+    <body>
+        <a href="index.html"><h1 class="monitoring">Monitoring</h1></a>
+        <a href="controlling.html"><h1 class="controlling">Controlling</h1></a>
+        <div class="underline"></div>
+        <div class="control"><h1>What you want to do ?</h1></div>
+        <div class="buttons">
+            <button class="on" onclick="document.getElementById('pro1').style.display='block'
+                     document.getElementById('pro2').style.display='none'">On</button>
+            <button class="off" 
+             onclick = "document.getElementById('pro2').style.display='block'
+                    document.getElementById('pro1').style.display='none'">Off</button>
+        </div>
+        <div class="process1" id="pro1">Your system will be on soon !</div>
+        <div class="process2" id="pro2">Your system will be off soon !</div>
+    </body>
+</html>

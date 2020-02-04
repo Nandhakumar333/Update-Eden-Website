@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.monitoring
+{
+    font-size: 50px;
+    width: 300px;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    transform: translate(150%,100%);
+    opacity: 0.5;
+}
+.controlling
+{
+    font-size: 50px;
+    width: 100px;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    transform: translate(1150%,2%);
+}
+.underline
+{
+    background-color: greenyellow;
+    width: 100%;
+    height: 10px;
+    transform: translate(0%,200%);
+}
+.ask
+{
+    width: 50%;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    transform: translate(65%,150%);
+}
+.icons
+{
+    width: 0%;
+    transform: translate(0%,0%);
+}
+.op1
+{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transform: translate(270%,75%)
+}
+.op1:hover
+{
+    border-radius: 10%;
+    transition: 0.5s ease;
+    background-color:greenyellow;
+}
+.op1:hover~.waterpump
+{
+    opacity: 1;
+    transition: 0.5s ease;
+}
+.motor
+{
+    height: 115px;
+    width: auto;
+}
+.ac
+{
+    width: 150px;
+    height: 50px;
+}
+.humidity
+{
+    width: 175px;
+}
+.op2
+{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transform: translate(410%,-30%)
+}
+.op2:hover
+{
+    border-radius: 10%;
+    transition: 0.5s ease;
+    background-color:greenyellow;
+}
+.op2:hover~.wind
+{
+    opacity: 1;
+    transition: 0.5s ease;
+}
+.op3
+{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transform: translate(550%,-135%)
+}
+.op3:hover
+{
+    border-radius: 10%;
+    transition: 0.5s ease;
+    background-color:greenyellow;
+}
+.op3:hover~#moisturer
+{
+    opacity: 1;
+    transition: 0.5s ease;
+}
+.waterpump
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    opacity: 0;
+    width: 200px;
+    height: 10px;
+    transform: translate(277%,1800%);
+}
+.wind
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    opacity: 0;
+    width: 250px;
+    height: 10px;
+    transform: translate(320%,-300%);
+}
+#moisturer
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    opacity: 0;
+    width: 200px;
+    transform: translate(570%,-683%);
+}
+a:visited
+{
+    text-decoration: none;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+.conform
+{
+    height: 10px;
+    width: 500px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    transform: translate(140%,-1900%);
+    display : none;
+}
+.yes
+{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    color: green;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    border: 2px solid black;
+    transform: translate(1040%,-350%);
+    display : none;
+}
+.no
+{
+     font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    color: green;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    border: 2px solid black;
+    transform: translate(1290%,-450%);
+    display : none;
+}
+.test{
+    visibility: visible;
+    color: red;
+}

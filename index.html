@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>EDEN</title>
+    <link href="https://fonts.googleapis.com/css?family=Abel|Acme&display=swap" rel="stylesheet">
     <link rel = "icon" href =  
 "img/logo3.png" 
         type = "image/x-icon"> 
@@ -19,62 +20,64 @@
 <body>
     <div class="container">
     	<div class="mt-3">
-    		<h1 style="text-align: center;">E<span id="title">DE</span>N</h1>
+    		<h1 class = "eden" style="text-align: center; font-size: 70px; font-family: 'Acme', sans-serif;">E<span id="title">DE</span>N</h1>
     	</div>
     	<div>
     		
     	</div>
-    	<hr>
+    	<hr style="background-color: green; height: 1px;">
     	<div class="block row justify-content-between text-center mt-5 choose">
     		<div id="choose" class="col-xl-5 col-lg-5 col-md-5 col-12 box1 p-5">
-    			
-    				<i class="fas fa-desktop fa-5x"></i><br>
-    			
-    				<button type="button" id="monitor" class="btn btn-outline-success mt-4">MONITOR</button>
+    			 
+    				<div id="m"><i class="fas fa-desktop fa-5x " ></i></div>
+    			     <br>
+    				<button type="button" id="monitor" class="btn btn-outline-success mt-4 " >MONITOR</button>
     			
     		</div>
     		<div class="col-xl-5 col-lg-5 col-md-5 col-12 box2 p-5 choose2" id="choose2">
 
     			<i class="fas fa-tools fa-5x"></i><br>
-
-    			<button type="button" class="btn btn-outline-success mt-4">CONTROL</button>
+                <br>
+    			<button type="button" id="control" class="btn btn-outline-success mt-4">CONTROL</button>
 
     		</div>
     	</div>
-    	<hr>
+        
+        <br>
+        <br>
         <div id="dis">
-            <h1>MONITOR</h1>
+            <h1 style="font-family: 'Raleway', sans-serif; color: black"><hr style="background-color: green; height: 1px;">MONITOR<hr style="background-color: green; height: 1px;"></h1>
         </div>
     	<div class="row mt-5" id="full">
             <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-12 r1 ">
                 <div class="text-center ">
-                    <div id="temp"></div>
-                    <h4>Temperature</h4>
+                    <div style="text-align: center" id="temp"></div>
+                    <h4 style="font-family: 'Raleway', sans-serif;">Temperature</h4>
                 </div>
-                <hr id="hr">
+                <hr id="hr" style = "background-color : grey ; height : 0.5px;">
                 <div class="text-center">
-                    <button class="btn btn-outline-success">VIEW</button>
+                    <button class="btn btn-outline-success allview">VIEW</button>
                 </div>
             </div>
             <div class="offset-md-3 col-xl-2 col-lg-2 col-md-2 col-sm-6 col-12 r1 mt-2">
                 <div class="text-center">
                     <div id="light"></div>
-                    <h4>Humidity</h4>
+                    <h4 style="font-family: 'Raleway', sans-serif;">Humidity</h4>
                 </div>
-                <hr class="mt-0" id="hr">
+                <hr class="mt-0" id="hr" style = "background-color : grey ; height : 0.5px;">
                 <div class="text-center">
-                    <button class="btn btn-outline-success">VIEW</button>
+                    <button class="btn btn-outline-success allview">VIEW</button>
                 </div>
                 
             </div>
             <div class="offset-md-3 col-xl-2 col-lg-2 col-md-2 col-sm-6 col-12 r1 mt-2">
                <div  class="text-center">
                     <div id="test1"></div>
-                    <h4>Light Intensity</h4>
+                    <h4 style = "font-family: 'Raleway', sans-serif;">Light Intensity</h4>
                 </div>
-                <hr class="mt-0" id="hr">
+                <hr class="mt-0" id="hr" style = "background-color : grey ; height : 0.5px;">
                 <div class="text-center">
-                    <button class="btn btn-outline-success">VIEW</button>
+                    <button class="btn btn-outline-success allview">VIEW</button>
                 </div>
             </div>
         </div>
@@ -82,31 +85,29 @@
             <div class="offset-md-2 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 r1 mt-2">
                <div  class="text-center">
                     <div id="test2"></div>
-                    <h4>Soil Moisture</h4>
+                    <h4 style="font-family: 'Raleway', sans-serif;">Soil Moisture</h4>
                 </div>
-                <hr class="mt-0" id="hr">
+                <hr class="mt-0" id="hr" style = "background-color : grey ; height : 0.5px;">
                 <div class="text-center">
-                    <button class="btn btn-outline-success">VIEW</button>
+                    <button class="btn btn-outline-success allview">VIEW</button>
                 </div>
             </div>
             <div class="offset-md-2 col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 r1 mt-2">
                 <div  class="text-center">
                     <div id="test3"></div>
-                    <h4>Co2 Concentration</h4>
+                    <h4 style="font-family: 'Raleway', sans-serif;">Co2 Concentration</h4>
                 </div>
-                <hr class="mt-0" id="hr">
+                <hr class="mt-0" id="hr" style = "background-color : grey ; height : 0.5px;">
                   <div class="text-center">
-                    <button class="btn btn-outline-success">VIEW</button>
+                    <button class="btn btn-outline-success allview">VIEW</button>
                 </div>
              </div>
         </div>
-        
-        <footer  class="page-footer font-small indigo" id="footer">
-             <div class="text-center">
-                <button class="btn btn-dark" id="dark">DARK</button>
-            </div>
-        </footer>
-       
+        <br>
+        <hr id="line" style = "background-color: green ; height: 1.5px;">
+        <br>
+        <h1 id="quotes">“The clearest way into the Universe is through a forest wilderness.”</h1>
+        <br>
     </div>
     
     <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase.js"></script>
@@ -130,7 +131,6 @@
     </script>
     
     <script src="script.js"></script>
-
 
 </body>
 </html>

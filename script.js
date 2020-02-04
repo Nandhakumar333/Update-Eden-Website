@@ -59,11 +59,13 @@
 
 		})
 	 $(document).ready(function(){
-	 	$('#dis,#full,#full2').hide();
+	 	$('#dis,#full,#full2,#line').hide();
         $('#monitor').click(function(){
             $('#dis').slideToggle(700,function(){
             	$('#full').slideToggle(600,function(){
-            		$('#full2').slideToggle(500);
+            		$('#full2').slideToggle(500,function(){
+                        $('#line').slideToggle(100);
+                    });
            
             		
             	});
