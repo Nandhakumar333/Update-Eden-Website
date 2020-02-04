@@ -1,0 +1,82 @@
+#title{
+	color: green;
+}
+.fa-desktop{
+	color: green;
+}
+.fa-tools
+{
+	color: green;
+}
+.box1{
+	border: 2px solid green;
+	border-radius: 25px;
+	
+}
+
+.box2{
+	border: 2px solid green;
+	border-radius: 25px;
+}
+
+
+.r1{
+	padding: 0.5%;
+	border: 2px solid green;
+	border-radius: 30px;
+	
+}
+#dis{
+	text-align: center;
+	
+}
+#temp{
+	background: green;
+	color: white;
+	border: 1px solid black;
+	border-radius: 50px;
+
+}
+#light{
+	background: green;
+	color: white;
+	border: 1px solid black;
+	border-radius: 25px;
+}
+#test1{
+	background: green;
+	color: white;
+	border: 1px solid black;
+	border-radius: 25px;
+}
+#test2{
+	background: green;
+	color: white;
+	background: green;
+	color: white;
+	border: 1px solid black;
+	border-radius: 25px;
+}
+#test3{
+	background: green;
+	color: white;
+	border: 1px solid black;
+	border-radius: 25px;
+}
+#line{
+	background: red;
+}
+#footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 150%;
+   text-align: center;
+}
+.dark{
+	background: black;
+	color: white;
+}
+#hr{
+	background: white;
+}

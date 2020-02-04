@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/core.js" integrity="sha256-36hEPcG8mKookfvUVvEqRkpdYV1unP6wvxIqbgdeVhk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <title>EDEN</title>
+</head>
+<body>
+    <div class="container">
+    	<div class="table-info">
+    		<h3>EDEN FIREBASE DATABASE</h3>
+    	</div>
+    	<form>
+    		<div class="form-group">
+    			<label for="name" class="form-control-label">Name</label><br>
+    			<input type="text" name="name" id="name" class="form-control">
+    		</div>
+    		<div class="form-group">
+    			<label for="name" class="form-control-label">Value</label><br>
+    			<input type="number" name="num" id="num" class="form-control">
+    		</div>
+    		<div class="btn-group">
+    			<button type="button" id="btnclick" class="btn btn-success" onclick="submitclick()">SEND</button>
+    		</div>
+    	</form>
+    	<div id="display">
+            
+        </div>
+
+        
+
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase.js"></script>
+
+
+	<script>
+	  // Your web app's Firebase configuration
+	  var firebaseConfig = {
+	    apiKey: "AIzaSyD-aw8BuB8UCvbQKPSLc3CVqeLWAKUuMvE",
+	    authDomain: "sih2020-9cf41.firebaseapp.com",
+	    databaseURL: "https://sih2020-9cf41.firebaseio.com",
+	    projectId: "sih2020-9cf41",
+	    storageBucket: "sih2020-9cf41.appspot.com",
+	    messagingSenderId: "566869246258",
+	    appId: "1:566869246258:web:8917bd068984e98b37d72b",
+	    measurementId: "G-7HL7HGXG8S"
+	  };
+	  // Initialize Firebase
+	  firebase.initializeApp(firebaseConfig);
+
+
+	  
+	</script>
+	
+	<script src="script.js"></script>
+
+</body>
+</html>
